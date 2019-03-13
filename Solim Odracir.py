@@ -222,6 +222,7 @@ class Player(pygame.sprite.Sprite):
         self.watchleft = False        
         self.winner = False
         
+        
     def pravo(self):
         self.rect.x += SPEED
         self.image.fill((0, 191, 255))
